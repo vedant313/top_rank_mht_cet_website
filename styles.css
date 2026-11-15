@@ -87,3 +87,8 @@
 .side-link{display:block;padding:12px 0;border-top:1px solid var(--line);font-size:12px;font-weight:800;color:#315bc4}
 @media(max-width:800px){.feature-detail-layout{grid-template-columns:1fr;gap:28px}.feature-side-panel{position:static}.feature-detail-hero{padding:50px 0 45px}}
 @media(max-width:700px){.feature-detail-hero h1{font-size:40px;letter-spacing:-1.8px}.feature-detail-intro{font-size:13px!important}.feature-link-card{min-height:195px}}
+
+.feature-title-link{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.feature-title-link span{font-size:13px;color:#315bc4;opacity:.7;transition:transform .2s}
+.feature-title-link:hover{color:#315bc4}
+.feature-title-link:hover span{transform:translate(2px,-2px)}
