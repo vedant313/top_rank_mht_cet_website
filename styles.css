@@ -246,3 +246,8 @@
 .founder-contact a{display:inline-flex;align-items:center;padding:9px 12px;border:1px solid #e4e2f6;border-radius:9px;background:#faf9ff;color:#5144b8;text-decoration:none;font-size:11px;font-weight:800;transition:background .2s,border-color .2s}
 .founder-contact a:hover{background:#f0eeff;border-color:#cfc9fa}
 @media(max-width:650px){.founder-feature-copy .founder-name-highlight{font-size:43px;letter-spacing:-1.7px}}
+
+/* Make Founder / Co-Founder role labels clearer without enlarging names */
+.founder-feature-copy .founder-designation{display:inline-flex;align-items:center;padding:9px 13px;border:1px solid #ded9ff;border-radius:999px;background:#f5f3ff;color:#5142c4;font-size:12px;font-weight:950;letter-spacing:.16em;line-height:1.2}
+.founder-feature-copy h3{font-size:clamp(32px,3.7vw,44px);letter-spacing:-1.3px}
+@media(max-width:650px){.founder-feature-copy .founder-designation{font-size:11px;padding:8px 11px}.founder-feature-copy h3{font-size:34px}}
