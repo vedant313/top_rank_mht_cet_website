@@ -251,3 +251,20 @@
 .founder-feature-copy .founder-designation{display:inline-flex;align-items:center;padding:9px 13px;border:1px solid #ded9ff;border-radius:999px;background:#f5f3ff;color:#5142c4;font-size:12px;font-weight:950;letter-spacing:.16em;line-height:1.2}
 .founder-feature-copy h3{font-size:clamp(32px,3.7vw,44px);letter-spacing:-1.3px}
 @media(max-width:650px){.founder-feature-copy .founder-designation{font-size:11px;padding:8px 11px}.founder-feature-copy h3{font-size:34px}}
+
+
+/* Founder profile contact cards */
+.founder-contact{display:block;margin-top:26px;padding-top:22px;border-top:1px solid #e9e8f1}
+.founder-contact-heading{display:flex;flex-direction:column;gap:5px;margin-bottom:13px}
+.founder-contact-kicker{font-size:9px;font-weight:900;letter-spacing:.16em;color:#8177cf}
+.founder-contact-heading strong{font-size:15px;font-weight:850;color:#20243a}
+.founder-contact-grid{display:grid;grid-template-columns:1fr;gap:9px}
+.founder-contact-card{display:flex;align-items:center;gap:12px;min-width:0;padding:12px 13px;border:1px solid #e9e7f3;border-radius:12px;background:#fff;color:#24243a;text-decoration:none;transition:transform .2s,border-color .2s,background .2s}
+.founder-contact-card:hover{transform:translateY(-2px);border-color:#c9c1f5;background:#fbfaff}
+.founder-contact-icon{display:grid;place-items:center;flex:0 0 36px;width:36px;height:36px;border-radius:10px;background:#f1efff;color:#6556c8;font-size:18px}
+.founder-contact-meta{display:flex;flex:1;flex-direction:column;gap:3px;min-width:0}
+.founder-contact-meta small{font-size:9px;line-height:1.2;font-weight:900;letter-spacing:.12em;color:#8a8da0}
+.founder-contact-meta strong{font-size:12px;line-height:1.45;font-weight:750;color:#292b40;overflow-wrap:anywhere}
+.founder-contact-arrow{color:#8175d2;font-size:16px;font-weight:800}
+@media(min-width:560px){.founder-contact-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.founder-contact-card:last-child{grid-column:1/-1}}
+@media(max-width:420px){.founder-contact-card{padding:10px}.founder-contact-meta strong{font-size:11px}}
