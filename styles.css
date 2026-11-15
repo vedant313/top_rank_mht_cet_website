@@ -285,3 +285,13 @@
 .founder-contact-meta strong{font-size:12px;line-height:1.5;font-weight:700;color:#27324a;overflow-wrap:anywhere}
 .founder-contact-arrow{color:#8880bd;font-size:16px;font-weight:700}
 @media(max-width:420px){.founder-contact-card{padding:11px 10px;gap:10px}.founder-contact-meta strong{font-size:11px}}
+
+/* Minimal aesthetic founder contact icons */
+.founder-contact{display:flex;align-items:center;gap:16px;margin-top:24px;padding-top:17px;border-top:1px solid #ececf2}
+.founder-contact-title{font-size:10px;font-weight:800;letter-spacing:.16em;color:#85899a}
+.founder-contact-icons{display:flex;align-items:center;gap:9px}
+.founder-contact-icon-link{display:grid;place-items:center;width:39px;height:39px;border:1px solid #e8e6f0;border-radius:50%;background:#fff;color:#6557b8;text-decoration:none;transition:all .2s ease}
+.founder-contact-icon-link svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}
+.founder-contact-icon-link svg .fill-dot{fill:currentColor;stroke:none}
+.founder-contact-icon-link:hover{background:#f4f1ff;border-color:#cfc8f2;color:#5142a8;transform:translateY(-2px)}
+@media(max-width:420px){.founder-contact{gap:12px}.founder-contact-icon-link{width:37px;height:37px}}
