@@ -31,3 +31,28 @@
 .footer-bottom{padding-top:17px;color:#7b8492;font-size:11px}
 @media(max-width:800px){.footer-main{grid-template-columns:1fr;gap:34px}.footer-about{max-width:560px}}
 @media(max-width:520px){.footer{padding-top:34px}.footer-columns{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 18px}.footer-column h3{font-size:13px}.footer-column a{font-size:12px}.footer-description{font-size:12px}.footer-bottom{font-size:10px;line-height:1.7}}
+
+/* Refined Top Rank footer with recognizable social brand marks */
+.footer{background:#f8f8f8;color:#626d7c;padding:48px 0 18px}
+.footer-main{grid-template-columns:minmax(290px,1.05fr) 1.95fr;gap:72px;padding-bottom:34px}
+.footer-about{max-width:430px}
+.footer-brand{gap:11px}
+.footer-brand img{width:46px;height:46px;border-radius:50%;border:1px solid #eceef2}
+.footer-description{font-size:13px;line-height:1.8;max-width:390px;margin:17px 0 23px}
+.footer-play-badge img{width:155px}
+.footer-social-title{font-size:17px;font-weight:750;margin:22px 0 13px;color:#182338}
+.footer-social{gap:11px;align-items:center}
+.footer-social a{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;color:#fff;box-shadow:0 3px 9px #1720331c;transition:transform .2s,box-shadow .2s}
+.footer-social a svg{width:19px;height:19px;display:block}
+.footer-social a:hover{transform:translateY(-3px);box-shadow:0 7px 14px #17203326}
+.footer-social .social-instagram{background:radial-gradient(circle at 30% 110%,#ffdc80 0 18%,#fcaf45 20% 35%,#f56040 45%,#c13584 68%,#833ab4 88%,#405de6 100%)}
+.footer-social .social-whatsapp{background:#20bd65}
+.footer-social .social-email{background:#344b70}
+.footer-columns{gap:34px}
+.footer-column{gap:13px}
+.footer-column h3{font-size:14px;font-weight:750;margin:0 0 5px;color:#182338}
+.footer-column a{font-size:13px;color:#697586;line-height:1.5}
+.footer-column a:hover{color:#2458c8}
+.footer-bottom{padding-top:18px;color:#87909d;font-size:11px}
+@media(max-width:800px){.footer-main{grid-template-columns:1fr;gap:36px}.footer-about{max-width:560px}}
+@media(max-width:520px){.footer{padding-top:36px}.footer-columns{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 18px}.footer-social a{width:36px;height:36px}}
