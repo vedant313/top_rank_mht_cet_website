@@ -157,3 +157,14 @@
 .feature-link-card .feature-read-more{padding-bottom:20px}
 @media(max-width:900px){.feature-detail-hero-grid{grid-template-columns:minmax(0,1fr) minmax(260px,350px);gap:28px}.detail-visual{min-height:370px;padding:14px}.detail-visual img{max-height:430px}.feature-detail-layout{gap:32px}}
 @media(max-width:700px){.feature-detail-hero{padding:42px 0 38px}.feature-detail-hero-grid{grid-template-columns:1fr;gap:28px}.feature-detail-copy h1{font-size:39px;letter-spacing:-1.5px;margin:17px 0 13px}.feature-detail-copy .feature-detail-intro{font-size:13px!important}.hero-proof{font-size:9px;flex-wrap:wrap}.detail-visual{min-height:0;padding:14px 12px 30px;border-radius:21px}.detail-visual img{max-height:none;width:auto;max-width:100%;height:auto;max-height:650px}.detail-visual-placeholder{min-height:320px}.feature-detail-layout{grid-template-columns:1fr;gap:26px}.feature-side-panel{position:static}.feature-detail-content .section-head h2{font-size:25px}.feature-card-image,.feature-card-placeholder{height:200px}}
+
+/* Top Rank leadership section */
+.leadership-section{background:#f8f9ff}
+.leadership-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;max-width:760px;margin:30px auto 0}
+.leader-card{padding:30px;border:1px solid #e7eaf4;border-radius:20px;background:#fff;box-shadow:0 12px 34px #17264b0b;text-align:center;transition:transform .2s,box-shadow .2s}
+.leader-card:hover{transform:translateY(-4px);box-shadow:0 18px 40px #17264b14}
+.leader-avatar{width:82px;height:82px;margin:0 auto 18px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(145deg,#3023a8,#8269f0);color:#fff;font-size:24px;font-weight:850;letter-spacing:-1px;box-shadow:0 10px 24px #5140cb30}
+.leader-role{font-size:10px;font-weight:900;letter-spacing:.14em;color:#5c4bd0}
+.leader-card h3{margin:9px 0 7px;font-size:20px;color:#111a34}
+.leader-card p{margin:0;color:#748097;font-size:12px;line-height:1.7}
+@media(max-width:560px){.leadership-grid{grid-template-columns:1fr;max-width:380px}.leader-card{padding:26px}}
