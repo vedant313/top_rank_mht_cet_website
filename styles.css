@@ -92,3 +92,13 @@
 .feature-title-link span{font-size:13px;color:#315bc4;opacity:.7;transition:transform .2s}
 .feature-title-link:hover{color:#315bc4}
 .feature-title-link:hover span{transform:translate(2px,-2px)}
+
+/* Real app screenshots on dedicated feature pages */
+.feature-preview-section{padding:52px 0 64px;background:linear-gradient(180deg,#f7f8ff 0%,#fff 100%);border-top:1px solid #eef0f8;border-bottom:1px solid #eef0f8}
+.feature-preview-wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,430px);gap:48px;align-items:center;max-width:1000px}
+.feature-preview-copy h2{font-size:clamp(25px,3vw,36px);line-height:1.15;letter-spacing:-1px;margin:15px 0 12px;color:#111a31}
+.feature-preview-copy p{font-size:13px;line-height:1.9;color:#758198;max-width:420px}
+.feature-preview-figure{margin:0;display:flex;flex-direction:column;align-items:center;gap:12px}
+.feature-preview-figure img{display:block;width:100%;max-width:390px;max-height:760px;object-fit:contain;object-position:top;border-radius:18px;box-shadow:0 22px 55px #17264b1c}
+.feature-preview-figure figcaption{font-size:10px;color:#8490a4;text-align:center}
+@media(max-width:760px){.feature-preview-section{padding:38px 0 44px}.feature-preview-wrap{grid-template-columns:1fr;gap:24px}.feature-preview-copy{text-align:center}.feature-preview-copy p{margin-left:auto;margin-right:auto}.feature-preview-figure img{max-width:min(100%,390px);max-height:none}}
