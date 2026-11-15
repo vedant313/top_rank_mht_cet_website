@@ -295,3 +295,16 @@
 .founder-contact-icon-link svg .fill-dot{fill:currentColor;stroke:none}
 .founder-contact-icon-link:hover{background:#f4f1ff;border-color:#cfc8f2;color:#5142a8;transform:translateY(-2px)}
 @media(max-width:420px){.founder-contact{gap:12px}.founder-contact-icon-link{width:37px;height:37px}}
+
+/* Refined contact icon buttons */
+.founder-contact{gap:18px}
+.founder-contact-title{font-size:9px;letter-spacing:.18em;color:#9296a5}
+.founder-contact-icons{gap:11px}
+.founder-contact-icon-link{width:44px;height:44px;border:1px solid #e9e8f0;border-radius:13px;background:#fff;color:#4f4b70;box-shadow:0 2px 8px rgba(24,28,50,.035);transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease,background .2s ease}
+.founder-contact-icon-link svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.founder-contact-icon-link:nth-child(1){color:#6659b5}
+.founder-contact-icon-link:nth-child(2){color:#3f7567}
+.founder-contact-icon-link:nth-child(3){color:#c13584}
+.founder-contact-icon-link:nth-child(3) svg{stroke-width:1.6}
+.founder-contact-icon-link:hover{transform:translateY(-3px);background:#fff;border-color:#d9d5ec;box-shadow:0 7px 18px rgba(35,29,83,.09);color:#5547a9}
+@media(max-width:420px){.founder-contact{gap:13px}.founder-contact-icon-link{width:42px;height:42px}}
