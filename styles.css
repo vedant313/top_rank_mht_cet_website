@@ -110,3 +110,50 @@
 .feature-link-card h3{margin-top:15px}
 .feature-link-card p{margin-bottom:0}
 .feature-link-card .feature-read-more{padding-bottom:20px}
+
+/* Feature experience refresh — balanced layouts, real screens, consistent cards */
+.feature-detail-hero{position:relative;overflow:hidden;padding:64px 0 58px;background:radial-gradient(ellipse at 82% 42%,#e9eaff 0%,#f5f5ff 32%,#fbfcff 68%,#fff 100%);border-bottom:1px solid #eceefa}
+.feature-detail-hero:before{content:"";position:absolute;width:430px;height:430px;border:1px solid #d9dcff;border-radius:50%;right:-170px;top:-190px;pointer-events:none}
+.feature-detail-hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,430px);gap:48px;align-items:center}
+.feature-detail-copy{max-width:620px}
+.feature-detail-copy .eyebrow{display:inline-flex;align-items:center;padding:8px 12px;border:1px solid #e0e3ff;border-radius:999px;background:#fff;color:#5142c9;font-size:10px;font-weight:850;letter-spacing:.09em}
+.feature-detail-copy h1{font-size:clamp(38px,5vw,58px);line-height:1.08;letter-spacing:-2.2px;margin:22px 0 18px;color:#10182f}
+.feature-detail-copy h1 .gradient{background:linear-gradient(100deg,#4433d1,#7860ef);-webkit-background-clip:text;background-clip:text;color:transparent}
+.feature-detail-copy .feature-detail-intro{max-width:560px!important;font-size:14px!important;line-height:1.9!important;color:#69748a}
+.feature-detail-copy .actions{margin-top:26px;display:flex;flex-wrap:wrap;gap:12px}
+.hero-proof{display:flex;align-items:center;gap:10px;margin-top:25px;color:#7d8799;font-size:10px;font-weight:700;letter-spacing:.02em}
+.hero-proof i{width:4px;height:4px;background:#7667e9;border-radius:50%}
+.detail-visual{position:relative;isolation:isolate;display:flex;justify-content:center;align-items:center;min-height:440px;padding:18px 22px 28px;border:1px solid #e6e8fb;border-radius:26px;background:linear-gradient(145deg,#fff 0%,#f5f4ff 100%);box-shadow:0 24px 60px #27236a12}
+.detail-visual-glow{position:absolute;z-index:-1;width:76%;height:70%;border-radius:50%;background:#d9d5ff;filter:blur(48px);opacity:.6}
+.detail-visual img{display:block;width:auto;height:auto;max-width:100%;max-height:510px;object-fit:contain;border-radius:12px;filter:drop-shadow(0 16px 22px #151c3820)}
+.visual-caption{position:absolute;bottom:12px;left:0;right:0;text-align:center;color:#8b91a5;font-size:9px;font-weight:750;letter-spacing:.1em;text-transform:uppercase}
+.detail-visual-placeholder{flex-direction:column;gap:15px;text-align:center;background:radial-gradient(circle at 50% 35%,#eeecff,#fff 68%)}
+.placeholder-orbit{width:170px;height:170px;border:1px solid #d9d4ff;border-radius:50%;display:grid;place-items:center;box-shadow:0 0 0 22px #f3f1ff,0 0 0 44px #f8f7ff}
+.placeholder-orbit span{width:90px;height:90px;border-radius:26px;display:grid;place-items:center;background:linear-gradient(140deg,#4c3bd7,#8871ff);color:white;font-size:40px;box-shadow:0 15px 35px #4c3bd744}
+.detail-visual-placeholder strong{font-size:20px;color:#17203a;margin-top:36px}
+.detail-visual-placeholder small{font-size:11px;color:#7b8498}
+.feature-detail-layout{max-width:1120px;grid-template-columns:minmax(0,1fr) 280px;gap:56px}
+.feature-detail-content .section-head h2{font-size:30px;letter-spacing:-.8px}
+.feature-detail-item{padding:25px 0}
+.feature-detail-item h3{font-size:16px}
+.feature-detail-item p{max-width:690px;font-size:13px;line-height:1.9}
+.feature-side-panel{border-radius:20px;background:#111b33;color:#fff;border:1px solid #263454;box-shadow:0 18px 45px #0c17301a}
+.feature-side-panel h3{color:#fff}
+.feature-side-panel p{color:#c0c9dc}
+.feature-side-panel .label{color:#b8b1ff}
+.feature-side-panel .side-subjects span{background:#28345a;color:#d9d5ff}
+.feature-side-panel .side-link{color:#d4ceff;border-color:#ffffff20}
+.feature-link-card{border:1px solid #e9ebf4;border-radius:18px;background:#fff;box-shadow:0 8px 24px #17264b08;min-height:365px}
+.feature-link-card:hover{transform:translateY(-6px);border-color:#d5d0ff;box-shadow:0 20px 42px #352b8c16}
+.feature-card-image,.feature-card-placeholder{width:100%;height:225px;display:flex;align-items:center;justify-content:center;object-fit:contain;object-position:center;background:linear-gradient(145deg,#f8f8ff,#eeefff);border-radius:17px 17px 0 0;padding:10px}
+.feature-card-placeholder{position:relative;flex-direction:column;gap:10px;overflow:hidden;background:radial-gradient(circle at 50% 40%,#dcd8ff,#f6f5ff 70%)}
+.feature-card-placeholder:before,.feature-card-placeholder:after{content:"";position:absolute;border:1px solid #fff9;border-radius:50%;width:180px;height:180px}
+.feature-card-placeholder:after{width:240px;height:240px}
+.feature-card-placeholder span{z-index:1;width:76px;height:76px;border-radius:23px;display:grid;place-items:center;background:linear-gradient(145deg,#4937d3,#8875ff);color:white;font-size:34px;box-shadow:0 14px 30px #5544ce44}
+.feature-card-placeholder small{z-index:1;color:#5548b9;font-size:9px;font-weight:900;letter-spacing:.14em}
+.feature-link-card .feature-card-top{margin-top:17px}
+.feature-link-card h3{font-size:17px;margin-top:13px}
+.feature-link-card p{font-size:12px;line-height:1.8;color:#737e92}
+.feature-link-card .feature-read-more{padding-bottom:20px}
+@media(max-width:900px){.feature-detail-hero-grid{grid-template-columns:minmax(0,1fr) minmax(260px,350px);gap:28px}.detail-visual{min-height:370px;padding:14px}.detail-visual img{max-height:430px}.feature-detail-layout{gap:32px}}
+@media(max-width:700px){.feature-detail-hero{padding:42px 0 38px}.feature-detail-hero-grid{grid-template-columns:1fr;gap:28px}.feature-detail-copy h1{font-size:39px;letter-spacing:-1.5px;margin:17px 0 13px}.feature-detail-copy .feature-detail-intro{font-size:13px!important}.hero-proof{font-size:9px;flex-wrap:wrap}.detail-visual{min-height:0;padding:14px 12px 30px;border-radius:21px}.detail-visual img{max-height:none;width:auto;max-width:100%;height:auto;max-height:650px}.detail-visual-placeholder{min-height:320px}.feature-detail-layout{grid-template-columns:1fr;gap:26px}.feature-side-panel{position:static}.feature-detail-content .section-head h2{font-size:25px}.feature-card-image,.feature-card-placeholder{height:200px}}
