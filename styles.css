@@ -8,3 +8,26 @@
 
 /* Social contact links */
 .footer-links{flex-wrap:wrap}.footer-links a:hover{color:#fff;text-decoration:underline;text-underline-offset:3px}
+
+
+/* Clean, multi-column Top Rank footer inspired by the reference layout */
+.footer{background:#f7f7f7;color:#5f6672;padding:44px 0 18px}
+.footer-main{display:grid;grid-template-columns:minmax(270px,1.15fr) 1.85fr;gap:64px;padding-bottom:30px;border-bottom:1px solid #e5e7eb}
+.footer-about{max-width:430px}
+.footer-brand{display:inline-flex;color:#101828;font-size:19px}
+.footer-brand img{width:43px;height:43px;border-radius:50%;background:#fff;object-fit:contain}
+.footer-brand small{color:#667085;font-size:8px}
+.footer-description{max-width:410px;color:#697386;font-size:13px;line-height:1.7;margin:15px 0 24px}
+.footer-play-badge img{width:145px}
+.footer-social-title{font-size:17px;color:#101828;margin:20px 0 12px}
+.footer-social{display:flex;gap:10px}
+.footer-social a{width:30px;height:30px;display:grid;place-items:center;border-radius:50%;background:#e9edf3;color:#27364b;font-size:12px;font-weight:800;text-transform:uppercase;transition:transform .2s,background .2s}
+.footer-social a:hover{transform:translateY(-2px);background:#dce4f0;color:#111827}
+.footer-columns{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.footer-column{display:flex;flex-direction:column;align-items:flex-start;gap:12px}
+.footer-column h3{font-size:14px;font-weight:650;color:#111827;margin:2px 0 3px}
+.footer-column a{font-size:13px;color:#687385;line-height:1.4;transition:color .2s}
+.footer-column a:hover{color:#111827;text-decoration:underline;text-underline-offset:3px}
+.footer-bottom{padding-top:17px;color:#7b8492;font-size:11px}
+@media(max-width:800px){.footer-main{grid-template-columns:1fr;gap:34px}.footer-about{max-width:560px}}
+@media(max-width:520px){.footer{padding-top:34px}.footer-columns{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 18px}.footer-column h3{font-size:13px}.footer-column a{font-size:12px}.footer-description{font-size:12px}.footer-bottom{font-size:10px;line-height:1.7}}
