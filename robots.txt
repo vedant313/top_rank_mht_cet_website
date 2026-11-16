@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://toprankmhtcetwebsite.vercel.app/sitemap.xml
+Sitemap: https://toprankmhtcet.nexsatechnologies.com/sitemap.xml
