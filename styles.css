@@ -308,3 +308,17 @@
 .founder-contact-icon-link:nth-child(3) svg{stroke-width:1.6}
 .founder-contact-icon-link:hover{transform:translateY(-3px);background:#fff;border-color:#d9d5ec;box-shadow:0 7px 18px rgba(35,29,83,.09);color:#5547a9}
 @media(max-width:420px){.founder-contact{gap:13px}.founder-contact-icon-link{width:42px;height:42px}}
+
+
+/* Refined hero actions — consistent sizing and a cleaner premium finish */
+.page-hero .actions{align-items:center;gap:12px;margin-top:26px}
+.page-hero .actions .btn{min-height:52px;padding:0 21px;border-radius:12px;font-size:12px;font-weight:800;letter-spacing:.05px;transition:transform .2s ease,box-shadow .2s ease,background .2s ease,border-color .2s ease}
+.page-hero .actions .btn-primary{background:linear-gradient(115deg,#2454c8 0%,#4267e8 58%,#6653dc 100%);box-shadow:0 9px 22px rgba(49,85,204,.20),inset 0 1px 0 rgba(255,255,255,.22)}
+.page-hero .actions .btn-primary:hover{transform:translateY(-2px);box-shadow:0 13px 26px rgba(49,85,204,.27)}
+.page-hero .actions .btn-outline{background:rgba(255,255,255,.88);border:1px solid #dce3f1;color:#202b45;box-shadow:0 3px 10px rgba(22,35,66,.035)}
+.page-hero .actions .btn-outline:hover{transform:translateY(-2px);background:#fff;border-color:#c4d0e8;box-shadow:0 9px 20px rgba(22,35,66,.09)}
+.page-hero .actions .play-store-badge{min-height:52px;padding:3px 7px;border:1px solid #e1e5ed;border-radius:12px;background:#fff;box-shadow:0 3px 10px rgba(22,35,66,.045);transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.page-hero .actions .play-store-badge img{width:142px;max-height:46px;object-fit:contain}
+.page-hero .actions .play-store-badge:hover{transform:translateY(-2px);border-color:#cbd4e5;box-shadow:0 9px 20px rgba(22,35,66,.10);filter:none}
+.page-hero .actions .btn:focus-visible,.page-hero .actions .play-store-badge:focus-visible{outline:3px solid rgba(66,103,232,.28);outline-offset:3px}
+@media(max-width:600px){.page-hero .actions{gap:9px}.page-hero .actions .btn{min-height:48px;padding:0 16px}.page-hero .actions .play-store-badge{min-height:48px}.page-hero .actions .play-store-badge img{width:132px;max-height:42px}}
